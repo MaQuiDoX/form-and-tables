@@ -10,7 +10,7 @@ ventana.geometry("1920x1080")
 # ventana.attributes("-fullscreen", True)
 
 # --- Fondo con imagen ---
-imagen_fondo = Image.open("fondo2.jpg")
+imagen_fondo = Image.open("main/fondo2.jpg")
 imagen_fondo = imagen_fondo.resize((1920, 1080), Image.Resampling.LANCZOS)
 fondo = ImageTk.PhotoImage(imagen_fondo)
 
